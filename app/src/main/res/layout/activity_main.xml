@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.lx_yuekao.shoppingpage.view.MainActivity"
+    android:orientation="vertical"
+    >
+
+    //主方法 布局
+
+    <Button
+        android:id="@+id/btn_map"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:text="定位用户的位置信息"
+        />
+
+    //数据展示
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/xlv_shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></com.jcodecraeer.xrecyclerview.XRecyclerView>
+
+</LinearLayout>
